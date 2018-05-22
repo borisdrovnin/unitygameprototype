@@ -23,7 +23,7 @@ namespace SeriousDev.Spacesnake
 
         private void FixedUpdate()
         {
-            Vector2 direction = lastDirection;
+            Vector2 direction = Vector2.zero;
             if (Input.GetKey(KeyCode.W))
             {
                 direction = Vector2.up;
